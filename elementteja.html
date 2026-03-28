@@ -7,52 +7,79 @@
     <link rel="stylesheet" href="tyylit/vakiotyyli.css">
 </head>
 <body>
+
+<div class="header">
     <h1>HTML-elementtejä</h1>
-    <h2>Otsikot</h1>
-    <p>HTML:ssä on otsikkoelementit h1-h6.</p>
+</div>
 
-    <h2>Listat</h2>
-    <p>HTML:ssä on kahden tyyppisiä listoja, numeroitu ja numeroimaton:
-<ol>
-  <li>Ensimmäinen listan kohta.</li>
-  <li>Toinen lista kohta.</li>
+<div class="navbar">
+    <a href="index.html">Etusivu</a>
+    <a href="elementteja.html">Elementtejä</a>
+    <a href="muotoiluja.html">Muotoiluja</a>
+    <a href="tyylisivuista.html">Tyylisivuista</a>
+</div>
 
-</ol>
-    <p>Numeroimaton lista:</p>
+<div class="row">
+    <div class="side">
+        <p class="note">Sivupalkki: tässä voit kertoa jotain lisätietoa</p>
+    </div>
+
+    <div class="main">
+        <h2>Otsikot</h2>
+        <p>HTML:ssä on otsikkoelementit h1-h6.</p>
+
+        <h2>Listat</h2>
+        <p>HTML:ssä on kahden tyyppisiä listoja, numeroitu ja numeroimaton:</p>
+        <ol>
+          <li>Ensimmäinen listan kohta.</li>
+          <li>Toinen listan kohta.</li>
+        </ol>
+
+        <p>Numeroimaton lista:</p>
         <ul>
-  <li>Ensimmäinen listan kohta.</li>
-  <li>Toinen lista kohta.</li>
-</ul>
-    <h2>Taulukot</h2>
-    <table>
-  <tr>
-    <th>Otsikko 1</th>
-    <th>Otsikko 2</th>
-  </tr>
-  <tr>
-    <td>Kenttä 1</td>
-    <td>Kenttä 2</td>
-  </tr>
-  <tr>
-    <td>Kenttä 1</td>
-    <td>Kenttä 2</td>
-  </tr>
-</table>
-<h2>Linkit</h2>
-<p>Linkki ulkoiselle HTML-sivulle (samaan ikkunaan/välilehteen):</p>
-<a href="https://www.seamk.fi/">SeAMKin sivu</a>
-<p>Linkki ulkoiselle HTML-sivulle (uuteen välilehteen):</p>
-<a href="https://www.seamk.fi/" target="_blank">SeAMKin sivu</a>
+          <li>Ensimmäinen listan kohta.</li>
+          <li>Toinen lista kohta.</li>
+        </ul>
 
-<H2>Kuvat</H2>
-<img src="kuva.gif" alt="Windows taustakuva">
+        <h2>Taulukot</h2>
+        <table>
+          <tr>
+            <th>Otsikko 1</th>
+            <th>Otsikko 2</th>
+          </tr>
+          <tr>
+            <td>Kenttä 1</td>
+            <td>Kenttä 2</td>
+          </tr>
+          <tr>
+            <td>Kenttä 1</td>
+            <td>Kenttä 2</td>
+          </tr>
+        </table>
 
-<h2>Videot</h2>
-<p>Esimerkkivideo osoitteesta <a href="https://file-examples.com">https://file-examples.com</a></p>
-<video width="320" height="240" controls>
-  <source src="video.mp4" type="video/mp4">
-  <source src="video.ogg" type="video/ogg">
-Your browser does not support the video tag.
-</video>
+        <h2>Linkit</h2>
+        <p>Linkki ulkoiselle HTML-sivulle (samaan ikkunaan):</p>
+        <a href="https://www.seamk.fi/">SeAMKin sivu</a>
+
+        <p>Linkki ulkoiselle HTML-sivulle (uuteen välilehteen):</p>
+        <a href="https://www.seamk.fi/" target="_blank">SeAMKin sivu</a>
+
+        <h2>Kuvat</h2>
+        <img src="kuva.gif" alt="Windows taustakuva">
+
+        <h2>Videot</h2>
+        <p>Esimerkkivideo osoitteesta <a href="https://file-examples.com">https://file-examples.com</a></p>
+        <video width="320" height="240" controls>
+          <source src="video.mp4" type="video/mp4">
+          <source src="video.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Footer</p>
+</div>
+
 </body>
 </html>
